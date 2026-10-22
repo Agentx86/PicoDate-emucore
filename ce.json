@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/CrankBoyHQ/libcrankemu-cores/main/core.schema.json",
+    "systems": {
+        "p8": "PICO-8"
+    },
+    "name": "PicoDate",
+    "version": "v0.2.1",
+    "unzip": {
+        "PicoDate.bin": "cores/PicoDate.bin",
+        "LICENSE": "cores/LICENSE_PicoDate",
+        "THIRD_PARTY_NOTICES.txt": "cores/THIRD_PARTY_NOTICES_PicoDate.txt"
+    },
+    "ce-version": 1,
+    "ce-version-min": 1,
+    "description": "PICO-8 cart player (.p8, .p8.png) from PicoDate, the standalone PICO-8 player for Playdate: https://bitcalibergames.itch.io/picodateplaydate . Based on fake-08 by jtothebell and z8lua by Sam Hocevar. Carts go in /Shared/Emulation/p8/games.",
+    "timestamp": "2026-10-22 20:12:50",
+    "size-download": 498518,
+    "href": "https://github.com/Agentx86/PicoDate-emucore/releases/download/v0.2.1/PicoDate-emucore.zip",
+    "license": "Freeware (closed source; third-party parts MIT/zlib)",
+    "license-href": "https://raw.githubusercontent.com/Agentx86/PicoDate-emucore/main/LICENSE",
+    "maintainer": "Serhii Nazarenko",
+    "genAI": "yes (claude-opus-5.5)"
+}
