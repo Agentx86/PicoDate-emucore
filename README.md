@@ -15,7 +15,8 @@ The core's source code is not published.
 1. Download `PicoDate-emucore.zip` from the [latest release](https://github.com/Agentx86/PicoDate-emucore/releases/latest).
 2. Connect the Playdate in disk mode and copy `PicoDate.bin` to `/Shared/Emulation/cores/`.
 3. Put carts (`.p8.png` or `.p8`) in `/Shared/Emulation/p8/games/`.
-4. Start CrankBoy: the carts are listed in the library next to the other systems.
+4. Start CrankBoy (3.0 or newer, see Requirements): the carts are listed in
+   the library next to the other systems.
 
 Multi-cart games: the cart you start goes in `games/`, the carts it loads with
 `load()` go in `/Shared/Emulation/p8/carts/` (CrankBoy does not list that
@@ -28,9 +29,11 @@ find a cart by that id.
 
 ## Requirements
 
-- CrankBoy with emucore support and DTCM for cores: the `development` branch
-  (towards CrankBoy 3.0). Older CrankBoy releases have no fast memory for
-  cores, so busy carts run noticeably slower there.
+- **CrankBoy 3.0 or newer.** Until 3.0 is released, that is CrankBoy built
+  from its `development` branch. The core needs what 3.0 gives emulation
+  cores (libcrankemu frontend version 2: fast DTCM memory for cores, return
+  to the library). In older CrankBoy (2.2.1 and before) the core shows
+  "PicoDate needs CrankBoy 3.0 or newer" instead of the game.
 - Tested on a Playdate Rev B.
 
 ## Controls
